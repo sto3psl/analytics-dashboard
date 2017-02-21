@@ -1,0 +1,6 @@
+@import 'normalize.css';
+@import './typo.css';
+
+body {
+  background-color: #02182B;
+}

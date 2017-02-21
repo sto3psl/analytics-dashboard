@@ -1,0 +1,52 @@
+.container {
+  position: relative;
+  width: 75vw;
+  height: 100vh;
+}
+
+.logo {
+  position: absolute;
+  height: 32px;
+  top: 15px;
+  left: 15px;
+}
+
+.numberContainer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.numbers {
+  color: white;
+}
+
+.label {
+  font-size: 30px;
+  text-transform: lowercase;
+  line-height: 1;
+}
+
+.labelSmall {
+  composes: label;
+  font-size: 20px;
+  padding-right: 8px;
+}
+
+.number {
+  font-size: 320px;
+  line-height: .9;
+  font-weight: 400;
+}
+
+.webapp {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  font-size: 30px;
+}

@@ -1,0 +1,11 @@
+.app {
+  display: flex;
+}
+
+.stretch {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex: 1;
+  z-index: 10;
+}

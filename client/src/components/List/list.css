@@ -1,0 +1,31 @@
+.title {
+  margin: 0;
+  padding: 16px;
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+  background-color: #334453;
+}
+
+.list {
+  list-style-type: none;
+  margin: 5px 20px;
+  padding: 0;
+  color: white;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 10px 10px;
+  border-bottom: 2px solid #334453;
+}
+
+.list > li:last-of-type {
+  border-bottom: none;
+}
+
+.percent {
+  color: #99A1A9;
+}

@@ -1,0 +1,32 @@
+.container {
+  margin-top: 10px;
+  display: flex;
+  color: white;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  height: 30px;
+  transition: 100ms width ease-in;
+}
+
+.mobile {
+  composes: bar;
+  background-color: #99a1a9;
+}
+
+.desktop {
+  composes: bar;
+  background-color: #67717a;
+}
+
+.tablet {
+  composes: bar;
+  background-color: #334453;
+}
+
+.icon {
+  width: 25px;
+}

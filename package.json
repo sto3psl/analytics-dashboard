@@ -1,0 +1,56 @@
+{
+  "name": "civey-dashboard",
+  "version": "0.0.1",
+  "description": "Realtime Dashboard for the Civey Widget and Webapp",
+  "main": "index.js",
+  "scripts": {
+    "build": "concurrently \"npm run test\" \"NODE_ENV=production rollup -c\"",
+    "dev": "rollup -c -w",
+    "server": "nodemon --debug --ignore client/",
+    "test": "standard"
+  },
+  "keywords": [
+    "dashboard",
+    "react",
+    "victory",
+    "chart",
+    "civey"
+  ],
+  "author": "Fabian Gündel <fabian@civey.com>",
+  "license": "ISC",
+  "dependencies": {
+    "good": "^7.1.0",
+    "good-console": "^6.4.0",
+    "good-squeeze": "^5.0.1",
+    "googleapis": "^16.1.0",
+    "h2o2": "^5.4.0",
+    "hapi": "^16.1.0",
+    "inert": "^4.1.0",
+    "lodash": "^4.17.4",
+    "postcss-modules": "^0.6.4",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "rollup-plugin-postcss": "^0.2.0",
+    "victory": "^0.17.0"
+  },
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.22.0",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-react": "^6.22.0",
+    "concurrently": "^3.3.0",
+    "nodemon": "^1.11.0",
+    "rollup": "^0.41.4",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-filesize": "^1.0.1",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-replace": "^1.1.1",
+    "rollup-plugin-sourcemaps": "^0.4.1",
+    "rollup-plugin-uglify": "^1.0.1",
+    "rollup-plugin-url": "^0.1.2",
+    "rollup-watch": "^3.2.2",
+    "standard": "^8.6.0"
+  }
+}
